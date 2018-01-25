@@ -136,15 +136,15 @@ include_once($path);
         </div>
         
         <p><span aweber-field="name">Friend</span>, what awaits you is a journey that’s going to <span class="purple">change your perspective</span> of everything you’ve experienced and will experience in life.</p>
+        
+        <img class="img-intext" src="../assets/img/tsol-cover.png">
 
         <p>I didn’t solve all of my problems in a day. The enlightenment comes instantly, but applying the strategies takes time.</p>
 
         <p>These are all the pieces that form the whole puzzle. This is what’s going to help you to learn and <span class="purple">grow EXPONENTIALLY.</span></p>
 
         <p>This is what’s going to help you build ultimate success, multiply your luck, and discover love and health like never before. And that’s how you’re going to find that <span class="purple">everlasting sense of joy.</span></p>
-        
-        <img class="img-intext" src="../assets/img/tsol-cover.png">
-        
+                
         <p>Now, here’s how it’s going to go down, <span aweber-field="name">Friend</span>. The Tarot Symbols of Life Reading has already been prepared for you. And on top of that, <span aweber-field="name">Friend</span>, I’ll be throwing a <span class="purple">few little extras</span> – just for you.</p>
         
         <h2 class="tsol-sub-header">Binaural Beats And Tarot Exclusive Collection Bonuses</h2>

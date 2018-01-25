@@ -50,7 +50,7 @@ include_once($path);
 
         <p>You must also bear in mind that your <span class="purple">impulsiveness</span> can at times get the best of you, <span aweber-field="name">Friend</span>… It’s best to resist temptations by disciplining your heart and mind, and through that, you will avoid making grave mistakes.</p>
 
-        <p><span aweber-field="name">Friend</span>, as long as you remember to <span class="purple">strive for balance,</span> and continue to actively seek mastery and knowledge about yourself, you will be able to <span class="purple">overcome your weaknesses</span> to become the best leader, person, and lover that you were meant to be.</p>
+        <p><span aweber-field="name">Friend</span>d, as long as you remember to <span class="purple">strive for balance,</span> and continue to actively seek mastery and knowledge about yourself, you will be able to <span class="purple">overcome your weaknesses</span> to become the best leader, person, and lover that you were meant to be.</p>
     </div>
     
 <?php

@@ -65,7 +65,7 @@
         clear: both;
     }
     .bullet-purple {
-        background: linear-gradient(60deg,purple,violet,purple);
+        background: linear-gradient(60deg,#80004d,#481648,#8e288e);
         color: #fff;
         padding: 20px 40px;
         box-shadow: 0 0 10px #000;
@@ -921,3 +921,84 @@ padding: 0 18px;
         margin: 40px auto;
     }
 /*---- SAC End ----*/
+
+/*---- EP Start ----*/
+    .ep-container {
+        width: 100%;
+        background: url("../img/ep-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .ep-header {
+        background: rgba(0,0,0,0.8);
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px purple;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .ep-header h1 {
+        font-size: 2em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .ep-header h3 {
+        font-size: 1.5em;    
+    }
+    .ep-header p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        color: #fff;
+    }
+    .ep-profile {
+        width: 50%;
+        background: url("../img/ep-bg.jpg") fixed center;
+        background-size: cover;
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0 auto;
+        text-shadow: 0 0 10px #fff;
+        margin-bottom: 20px;
+        clear: both;
+    }
+    .ep-details {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .ep-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #fff;
+        clear: both;
+    }
+    .ep-sub-header {
+        padding: 10px;
+        text-transform: capitalize;
+        background: url(../img/ep-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+        text-shadow: 0 0 10px #fff;
+    }
+/*---- EP End ----*/

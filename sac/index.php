@@ -291,8 +291,7 @@ include($path);
         
         <div class="guarantee">
             <img src="../assets/img/guarantee.png">
-            
-            <p>At any point in time within the next 60 days from today, you decide that the Crystal Healing Chronicles wasn’t educational, helpful, or useful to you in anyway, all you have to do is e-mail us at contact@individualogist.com and we’ll award you a FULL REFUND – no questions asked.</p>
+            <p>At any point in time within the next 60 days from today, you decide that your purchase wasn’t educational, helpful, or useful to you in anyway, all you have to do is e-mail us at contact@individualogist.com and we’ll award you a FULL REFUND – no questions asked.</p>
 
             <p>Protecting the purchases of our customers is important to us. We firmly believe in building and keeping your trust, Friend. And you have my personal guarantee that this material will help you reap all the benefits that I’ve mentioned – and MORE</p>
         </div>

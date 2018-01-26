@@ -51,8 +51,13 @@
     }
     .purple {
         color: purple;
-        font-weight: purple;
+        font-weight: 700;
         text-shadow: 0 0 5px purple;
+    }
+    .pink {
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 0 0 5px #de2086, 0 0 5px #de2086, 0 0 10px #de2086, 0 0 5px #de2086, 0 0 20px #de2086, 0 0 10px #de2086;
     }
     .sales-reading, .archetype-reading {
         width: 70%;
@@ -1003,3 +1008,74 @@ padding: 0 18px;
         text-shadow: 0 0 10px #fff;
     }
 /*---- EP End ----*/
+
+/*---- DTOL Start ----*/
+    .dtol-container {
+        width: 100%;
+        background: url("../img/dtol-bg.jpg") fixed center;
+        background-size: cover;
+    }
+    .dtol-header {
+        background: #000000d4;
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 30px #de2086;
+        border-bottom: 4px solid gold;
+        color: #fff;
+        width: 70%;
+        position: relative;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px #000;
+        margin: 0 auto;
+        font-size: 2.2em;
+        font-family: 'Raleway', 'sans-serif';
+        text-align: center;
+    }
+    .dtol-header h1 {
+        font-size: 1em;
+        font-family: 'Raleway', 'sans-serif';
+    }
+    .dtol-header h3 {
+        font-size: 1em;    
+    }
+    .dtol-reading {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px;
+        box-shadow: 5px 5px 10px #000;
+        text-align: left;
+        background: #fff;
+        box-shadow: 0 0 10px #000;
+        clear: both;
+    }
+    .dtol-sub-header {
+        padding: 30px;
+        text-transform: capitalize;
+        background: url(../img/dtol-bg.jpg) fixed center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        clear: both;
+        box-shadow: 0 0 10px purple;
+        border: 2px solid purple;
+        border-radius: 4px;
+    }
+    .dtol-order-area {
+        width: 80%;
+        position: relative;
+        margin: 40px auto;
+    }
+    .dtol-order-area .order-img {
+        margin-right: 20px;
+        width: 45%;
+    }
+    .dtol-order-area .order-form {
+        margin-left: 20px;
+        width: 50%;
+    }
+/*---- DTOL End ----*/

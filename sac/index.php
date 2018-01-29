@@ -7,7 +7,7 @@ include_once($path);
 <body>
 <div class="sac-container">
         <div class="indi-logo">
-            <img src="/sp/assets/img/individualogist-logo2.png" width="300px">
+            <img src="/sp/assets/img/individualogist-logo2.png">
         </div>
         
     <div class="sac-header">
@@ -16,9 +16,10 @@ include_once($path);
     </div>
 
     <div class="sac-reading">
+        <span class="archetype-xl caregiver"></span>
+        
         <p>Dear <span aweber-field="name">Friend</span>,</p>
         
-        <img class="img-intext" src="../assets/img/icons/caregiver.png">        
         <p>I’ve been meaning to get in touch with you, because I’m incredibly excited!</p>
 
         <p>Why? Well, because I have a <span class="purple">life-altering message</span> to share with you today.</p>

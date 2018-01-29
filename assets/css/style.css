@@ -33,10 +33,13 @@
     }
     .indi-logo {
         filter: drop-shadow(2px 5px 5px #000);
-        width: 300px;
         position: relative;
         margin: 0 auto;
+        width: 300px;
         padding: 30px;
+    }
+    .indi-logo img {
+        width: 100%;
     }
     .footer-logo {
       filter: drop-shadow(2px 5px 5px #000);
@@ -303,6 +306,85 @@
         margin-bottom: 40px;
     }
 
+/*---- Archetype Icons Start ----*/
+
+    .archetype-xl, .element-xl {
+        width: 300px;    
+        height: 300px;
+        display: block;
+        filter: drop-shadow(3px 3px 5px #000);
+        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+        float: right;
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+    .caregiver {
+        background: url('../img/icons/caregiver.png') no-repeat;
+        background-size: contain;    
+    }
+    .creator {
+        background: url('../img/icons/creator.png') no-repeat;
+        background-size: contain;    
+    }
+    .explorer {
+        background: url('../img/icons/explorer.png') no-repeat;
+        background-size: contain;    
+    }
+    .hero {
+        background: url('../img/icons/hero.png') no-repeat;
+        background-size: contain;  
+    }
+    .innocent {
+        background: url('../img/icons/innocent.png') no-repeat;
+        background-size: contain;  
+    }
+    .jester {
+        background: url('../img/icons/jester.png') no-repeat;
+        background-size: contain;  
+    }
+    .lover {
+        background: url('../img/icons/lover.png') no-repeat;
+        background-size: contain;  
+    }
+    .magician {
+        background: url('../img/icons/magician.png') no-repeat;
+        background-size: contain;  
+    }
+    .member {
+        background: url('../img/icons/member.png') no-repeat;
+        background-size: contain;  
+    }
+    .outlaw {
+        background: url('../img/icons/outlaw.png') no-repeat;
+        background-size: contain;  
+    }
+    .ruler {
+        background: url('../img/icons/ruler.png') no-repeat;
+        background-size: contain;  
+    }
+    .sage {
+        background: url('../img/icons/sage.png') no-repeat;
+        background-size: contain;  
+    }
+    .air {
+        background: url('../img/air-element.png') no-repeat;
+        background-size: contain;   
+    }
+    .water {
+        background: url('../img/water-element.png') no-repeat;
+        background-size: contain;   
+    }
+    .earth {
+        background: url('../img/earth-element.png') no-repeat;
+        background-size: contain;   
+    }
+    .fire {
+        background: url('../img/fire-element.png') no-repeat;
+        background-size: contain;   
+    }
+    
+/*---- Archetype Icons End ----*/
+
 .right {
     text-align: center;
     background: #fff;
@@ -465,7 +547,7 @@ padding: 0 18px;
           position: relative;
           margin: 0 auto;
         }
-        .img-intext {
+        .img-intext, .archetype-xl, .element-xl {
             width: 100%;
             position: relative;
             margin: 0 auto;

@@ -7,7 +7,7 @@ include_once($path);
 <body>
 <div class="tsol-container">
         <div class="indi-logo">
-            <img src="/sp/assets/img/individualogist-logo2.png" width="300px">
+            <img src="/sp/assets/img/individualogist-logo2.png">
         </div>
         
     <div class="tsol-header">
@@ -71,7 +71,7 @@ include_once($path);
         
         <h2 class="tsol-sub-header">A Journey Towards Self Discovery</h2>
         
-        <img class="img-intext" src="../assets/img/tsol-2.jpg" style="text-align: center;">
+        <img class="img-intext" src="../assets/img/tsol-2.jpg">
         
         <p>There will always be obstacles in life, but with the information from this reading, you’ll be able to overcome them easily. <span aweber-field="name">Friend</span>, this includes finding your hidden talents and the gifts that the universe has given you.</p>
 

@@ -7,7 +7,7 @@ include_once($path);
 <body>
 <div class="eote-container">
         <div class="indi-logo">
-            <img src="/sp/assets/img/individualogist-logo2.png" width="300px">
+            <img src="/sp/assets/img/individualogist-logo2.png">
         </div>
         
     <div class="eote-header">

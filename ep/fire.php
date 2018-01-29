@@ -7,7 +7,9 @@ include_once($path);
 <body>
 <div class="ep-container">
     <div class="ep-header">
-        <img src="/sp/assets/img/individualogist-logo2.png" width="300px" style="filter:drop-shadow(2px 2px 5px #000);">
+        <div class="indi-logo">
+            <img src="/sp/assets/img/individualogist-logo2.png" width="300px">
+        </div>
         
         <h1><span aweber-field="name">Friend</span>, As <span class="purple">Foretold By Your Star Sign,</span> <span aweber-field="horoscope">Horoscope</span>, Your Innate <span class="purple">Element</span> Is <span aweber-field="element">Element</span>.</h1>
         
@@ -30,7 +32,7 @@ include_once($path);
             <h2><span aweber-field="name">Friend, Your <span aweber-field="element">Element</span> Elemental Reading Reveals All...</span></h2>
         </div>
         
-        <img class="img-intext" src="../assets/img/fire-element.png">
+        <span class="element-xl fire"></span>
         
         <p><span aweber-field="name">Friend</span>, your element is Fire. Deep within you lies a burning sense of desire – an unbreakable passion for your ideas, goals, and personal beliefs.</p>
             

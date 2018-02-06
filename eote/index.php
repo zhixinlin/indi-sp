@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Individualogist.com | Eclipse Of The Ego  ";
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/header.php');
+$path .= ('/sp/common/header.php');
 include_once($path);
 ?>
 <body>
@@ -11,12 +11,12 @@ include_once($path);
         </div>
         
     <div class="eote-header">
-        <h1>Congratulations, <span aweber-field="name">Friend</span>, You Have Been Selected To Access This Exclusive Offer!</h1>
-        <h3><span aweber-field="name">Friend</span>, Your Journey Towards Transcendence Begins Here...</h3>
+        <h1>Congratulations, <span class="capitalize"><?php echo $_GET['name']; ?></span>, You Have Been Selected To Access This Exclusive Offer!</h1>
+        <h3><span class="capitalize"><?php echo $_GET['name']; ?></span>, Your Journey Towards Transcendence Begins Here...</h3>
     </div>
 
     <div class="eote-reading">
-        <p>Dear <span aweber-field="name">Friend</span>,</p>
+        <p>Dear <span class="capitalize"><?php echo $_GET['name']; ?></span>,</p>
         
         <img class="img-intext" src="../assets/img/eote-1.jpg">
         
@@ -24,11 +24,11 @@ include_once($path);
         
         <p>You know what? Not everyone who took the Archetype quiz gets to see this page. In fact, only <span class="goldenrod">a handful of incredibly fortunate individuals</span> have been selected to be shown this offer.</p>
 
-        <p>And you’re one of them, <span aweber-field="name">Friend</span>.</p>
+        <p>And you’re one of them, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
-        <p>I’m sure you remember what I told you about your archetype earlier, <span aweber-field="name">Friend</span>. And as I mentioned, I truly believe that there’s <span class="goldenrod">great potential in you.</span></p>
+        <p>I’m sure you remember what I told you about your archetype earlier, <span class="capitalize"><?php echo $_GET['name']; ?></span>. And as I mentioned, I truly believe that there’s <span class="goldenrod">great potential in you.</span></p>
 
-        <p><span aweber-field="name">Friend</span>, your existence is beyond the imaginable.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, your existence is beyond the imaginable.</p>
 
         <p>You are a <span class="goldenrod">real blessing</span> to those around you, and I absolutely believe that your friends and family will wholeheartedly agree with me on this.</p>
 
@@ -36,7 +36,7 @@ include_once($path);
 
         <p>There’s an obstacle separating the life that you have right now, and the life that you’ve always dreamed of…</p>
         
-        <h2 class="eote-sub-header"><span aweber-field="name">Friend</span>, That Obstacle is Yourself...</h2>
+        <h2 class="eote-sub-header"><span class="capitalize"><?php echo $_GET['name']; ?></span>, That Obstacle is Yourself...</h2>
         
         <img class="img-intext" src="../assets/img/eote-2.png">
         
@@ -46,7 +46,7 @@ include_once($path);
 
         <p>What’s happening here is that <span class="goldenrod">your Ego is standing in the way of your Self.</span></p>
 
-        <p>You see, <span aweber-field="name">Friend</span>, your Ego is a <span class="goldenrod">self-constructed image</span> – a version of yourself that only you can see.</p>
+        <p>You see, <span class="capitalize"><?php echo $_GET['name']; ?></span>, your Ego is a <span class="goldenrod">self-constructed image</span> – a version of yourself that only you can see.</p>
 
         <p>Your Self, on the other hand, represents the <span class="goldenrod">true version</span> of who you are.</p>
 
@@ -54,7 +54,7 @@ include_once($path);
 
         <p>As you can already tell, discerning between the two can be difficult at times, and that’s what’s going on.</p>
         
-        <h2 class="eote-sub-header">Now, I want you to pay close attention, <span aweber-field="name">Friend</span>...</h2>
+        <h2 class="eote-sub-header">Now, I want you to pay close attention, <span class="capitalize"><?php echo $_GET['name']; ?></span>...</h2>
         
         <img class="img-intext" src="../assets/img/eote-3.png">
         
@@ -66,7 +66,7 @@ include_once($path);
 
         <p>And guess what? >Everything that you need to <span class="goldenrod">regain control over your life</span> lies right here, on this page.</p>
 
-        <p>Here’s the thing, <span aweber-field="name">Friend</span>.</p>
+        <p>Here’s the thing, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <div class="point-glow">
             <p>You are the captain of your own ship.</p>
@@ -77,7 +77,7 @@ include_once($path);
         
         <img class="img-intext" src="../assets/img/eote-4.jpg">
         
-        <p><span aweber-field="name">Friend</span>, I know how it feels to struggle. I struggled my entire life before I came across this. So…</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I know how it feels to struggle. I struggled my entire life before I came across this. So…</p>
         
         <ul class="eote-bullet">
             <li>If you feel like you’re on the brink of burning out…</li>
@@ -88,7 +88,7 @@ include_once($path);
         
         <p>Then this is EXACTLY what you need. This is <span class="goldenrod">EXACTLY</span> what’s going to <span class="goldenrod">COMPLETELY REVOLUTIONIZE</span> your entire life, and your entire being.</p>
         
-        <h2 class="eote-sub-header"><span aweber-field="name">Friend</span>, I Want You To Picture A Door In Front Of You...</h2>
+        <h2 class="eote-sub-header"><span class="capitalize"><?php echo $_GET['name']; ?></span>, I Want You To Picture A Door In Front Of You...</h2>
         
         <img class="img-intext" src="../assets/img/eote-5.jpg">
         
@@ -104,7 +104,7 @@ include_once($path);
 
         <p>The door has already been <span class="goldenrod">unlocked for you.</span> The door has already been opened for you.</p> 
 
-        <p>All you need to do, is give it a little push. Yes, it’s that easy, <span aweber-field="name">Friend</span>.</p>
+        <p>All you need to do, is give it a little push. Yes, it’s that easy, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
         
         <div class="point-glow">
             <p>..The Supreme Mastery Code: Eclipse Of The Ego</p>
@@ -119,15 +119,15 @@ include_once($path);
 
         <p>It gives you the step-by-step process that you need to return to your <span class="goldenrod">true Self,</span> and become the person that you were meant to be.</p>
 
-        <p>That’s right, <span aweber-field="name">Friend</span>. This is your moment to re-master your life.</p>
+        <p>That’s right, <span class="capitalize"><?php echo $_GET['name']; ?></span>. This is your moment to re-master your life.</p>
 
         <p>And all of it begins with how you <span class="goldenrod">respond to this message today.</span></p>
         
-        <p>Here’s the truth, <span aweber-field="name">Friend</span>. I personally believe in your gifts and the wonders of your archetype. That’s why I want to extend this exclusive course to you.</p>
+        <p>Here’s the truth, <span class="capitalize"><?php echo $_GET['name']; ?></span>. I personally believe in your gifts and the wonders of your archetype. That’s why I want to extend this exclusive course to you.</p>
 
         <p>I want to see you soar beyond the clouds and <span class="goldenrod">achieve greatness.</span></p>
 
-        <p>But not everyone who sees this page will take action – that’s the truth. And yes, <span aweber-field="name">Friend</span>, you guessed it…</p>
+        <p>But not everyone who sees this page will take action – that’s the truth. And yes, <span class="capitalize"><?php echo $_GET['name']; ?></span>, you guessed it…</p>
 
         <p>…The people that choose not to take action, are allowing their Egos to make the decision for them.</p>
 
@@ -139,7 +139,7 @@ include_once($path);
 
         <p>You already know this, but that’s the Ego speaking on behalf on those people.</p>
 
-        <p><span aweber-field="name">Friend</span>, I don’t want you to fall into that trap. I truly do care about you. And it’s just as important to me as it is to you to see you <span class="goldenrod">live the life that you were meant to live.</span></p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I don’t want you to fall into that trap. I truly do care about you. And it’s just as important to me as it is to you to see you <span class="goldenrod">live the life that you were meant to live.</span></p>
         
         <h2 class="eote-sub-header">The realm of individuation has several layers.</h2>
         
@@ -165,20 +165,20 @@ include_once($path);
             <p>Regain complete control over your entire being</p>
             <p>Return to your true self</p>
             <p>Embark on the life journey that you were meant to lead</p>
-            <p>But that’s not all you’re going to get, <span aweber-field="name">Friend</span>…</p>
+            <p>But that’s not all you’re going to get, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
         </div>
         
         <img class="img-intext" src="../assets/img/eote-cover.png">
         
         <p>The Supreme Mastery Code: Eclipse of the Ego consists of <span class="goldenrod">8 complete, actionable and detailed modules</span> that cover everything that you need to know about your Ego and Individuation.</p>
         
-        <p>Yes, <span aweber-field="name">Friend</span>. You guessed it!</p>
+        <p>Yes, <span class="capitalize"><?php echo $_GET['name']; ?></span>. You guessed it!</p>
 
         <p>The Supreme Mastery Code: Eclipse of the Ego series will allow you to be a <span class="goldenrod">competent and confident practitioner of individuation!</span></p>
 
         <p>A truly admirable achievement. And you are amongst the very few who have been given this once in a lifetime opportunity.</p>
 
-        <p>But <span aweber-field="name">Friend</span>, if you close this page, this offer will be gone – forever.</p>
+        <p>But <span class="capitalize"><?php echo $_GET['name']; ?></span>, if you close this page, this offer will be gone – forever.</p>
 
         <p>You will NOT get to see it twice…</p>
 
@@ -186,7 +186,7 @@ include_once($path);
         
         <p>You have the resources, the knowledge, and the experience to make this work absolute wonders for you.</p>
 
-        <p>You have what it takes, <span aweber-field="name">Friend</span>.</p>
+        <p>You have what it takes, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>The Supreme Mastery Code: Eclipse of the Ego was <span class="goldenrod">made for you.</span></p>
 
@@ -200,7 +200,7 @@ include_once($path);
         
         <img class="img-intext" src="../assets/img/eote-7.jpg">
         
-        <p>Do you know what’s the best part about this, <span aweber-field="name">Friend</span>?</p>
+        <p>Do you know what’s the best part about this, <span class="capitalize"><?php echo $_GET['name']; ?></span>?</p>
 
         <p>The power is in your hands. The ball is in your court. This is <span class="goldenrod">your moment.</span></p>
 
@@ -208,7 +208,7 @@ include_once($path);
 
         <p>The amount of value that you will receive from the Supreme Mastery Code: Eclipse of the Ego will <span class="goldenrod">supersede everything</span> that you’ve ever gotten before. I promise you.</p>
 
-        <p>This is an exclusive offer that’s being offered to you, <span aweber-field="name">Friend</span>. And as you already know, this offer is only available right now. Not a month. Not a week. Not even 24 hours.</p>
+        <p>This is an exclusive offer that’s being offered to you, <span class="capitalize"><?php echo $_GET['name']; ?></span>. And as you already know, this offer is only available right now. Not a month. Not a week. Not even 24 hours.</p>
 
         <p>If you close this page, I hate to say it, but your opportunity would have been lost.</p>
         
@@ -234,11 +234,11 @@ include_once($path);
         
         <img class="img-intext" src="../assets/img/eote-8.png">
         
-        <p><span aweber-field="name">Friend</span>, if you had the chance to purchase Apple’s stock for a penny today, would you buy it?</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, if you had the chance to purchase Apple’s stock for a penny today, would you buy it?</p>
 
         <p>Of course you would! But only because you know how much it’s worth right now.</p>
 
-        <p><span aweber-field="name">Friend</span>, I guarantee you this. When you look back upon this day, that’s what the $67 price-point is going to look like to you.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I guarantee you this. When you look back upon this day, that’s what the $67 price-point is going to look like to you.</p>
 
         <p>Because in the future, you will realize that the amount of value you gained from the Eclipse of the Ego series is worth at least <span class="goldenrod">a hundred folds more than just $67.</span></p>
 
@@ -266,7 +266,7 @@ include_once($path);
             <li>A beautifully designed progress-tracking workbook</li>
         </ul>
         
-        <p>Yes, <span aweber-field="name">Friend</span>. You’re going to get all of that, for the <span class="goldenrod">small price of just $67.</span></p>
+        <p>Yes, <span class="capitalize"><?php echo $_GET['name']; ?></span>. You’re going to get all of that, for the <span class="goldenrod">small price of just $67.</span></p>
         
         <p>That’s it.</p>
 
@@ -274,11 +274,11 @@ include_once($path);
 
         <p>All you need to do is click on the button below and your Supreme Mastery Code: Eclipse of the Ego, the exercises, the workbook, and all of the formats will be <span class="goldenrod">sent to you INSTANTLY.</span></p>
 
-        <p>This is your moment, <span aweber-field="name">Friend</span>… This is your moment to shine.</p>
+        <p>This is your moment, <span class="capitalize"><?php echo $_GET['name']; ?></span>… This is your moment to shine.</p>
 
         <p>The question is… Will you answer the call?</p>
 
-        <p><span aweber-field="name">Friend</span>, <span class="goldenrod">click on the button below</span> and you will be taken to a 100% secure order page. I’ll see you there.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, <span class="goldenrod">click on the button below</span> and you will be taken to a 100% secure order page. I’ll see you there.</p>
         
     </div>
     
@@ -290,13 +290,13 @@ include($path);
 
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/common-faq.php');
+$path .= ('/sp/common/common-faq.php');
 include_once($path);
 ?>
 
         
 <?php 
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/footer.php');
+$path .= ('/sp/common/footer.php');
 include_once($path); 
 ?>

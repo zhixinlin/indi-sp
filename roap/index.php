@@ -20,7 +20,7 @@ include_once($path);
 
         <p>What I mean is, what if I told you that you could actually, physically leave your body, hover over yourself, and observe your external environment…</p>
 
-        <p>Think of ALL the possibilities, <span aweber-field="name">Friend</span>…</p>
+        <p>Think of ALL the possibilities, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
 
         <p>Think about how quickly you’d be able to <span class="purple">accelerate your spiritual awakening.</span></p>
 
@@ -28,7 +28,7 @@ include_once($path);
 
         <p>Think about how <span class="purple">eye-opening</span> the revelations you’d have through such an experience.</p>
 
-        <p>Well, I want you to know, <span aweber-field="name">Friend</span>, that all of that is <span class="purple">ABSOLUTELY POSSIBLE.</span></p>
+        <p>Well, I want you to know, <span class="capitalize"><?php echo $_GET['name']; ?></span>, that all of that is <span class="purple">ABSOLUTELY POSSIBLE.</span></p>
 
         <p>In fact, it really isn’t so hard to astral project.</p>
 
@@ -52,7 +52,7 @@ include_once($path);
 
         <p>And then, you’ll grow <span class="purple">infinitely more curious</span> about the potential of this superpower… That’s when you eventually decide to soar above and beyond.</p>
 
-        <p>There is no doubt that you can enjoy this incredibly spiritual experience, <span aweber-field="name">Friend</span>… I can show you how – in just 7 steps.</p>
+        <p>There is no doubt that you can enjoy this incredibly spiritual experience, <span class="capitalize"><?php echo $_GET['name']; ?></span>… I can show you how – in just 7 steps.</p>
 
         <p><span class="purple">Step 1:</span> Relax, both physically and mentally.</p>
         <p><span class="purple">Step 2:</span> Enter a hypnagogic state, or half-sleep.</p>
@@ -62,13 +62,13 @@ include_once($path);
         <p><span class="purple">Step 6:</span> Focus your thoughts on leaving the limbs and the torso, and try to do so one at a time.</p>
         <p><span class="purple">Step 7:</span> Known as “lifting out,” focus on effortlessly drifting out of your physical body.</p>
 
-        <p>BUT. <span aweber-field="name">Friend</span>, this method alone might not do it for you. You see, each of us are programmed differently. Our <span class="purple">consciousness differs from one another</span>, and the methods that we respond to are different as well.</p>
+        <p>BUT. <span class="capitalize"><?php echo $_GET['name']; ?></span>, this method alone might not do it for you. You see, each of us are programmed differently. Our <span class="purple">consciousness differs from one another</span>, and the methods that we respond to are different as well.</p>
 
         <p>So, in order to ensure that you <span class="purple">experience the TRUE effects of Astral Projection</span>, and do so SAFELY, this material is definitely worth checking out.</p>
     
         <h2 class="roap-sub-header">Introducing - The Revolution Of Astral Projection</h2>
     
-        <p><span aweber-field="name">Friend</span>, within this extraordinary read, you will discover every single facet of Astral Projection there is to know.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, within this extraordinary read, you will discover every single facet of Astral Projection there is to know.</p>
         
         <p>You will be more than well-prepared to perform your first Astral Projection, and you will be given expert insight into the details of your preparation – <span class="purple">before, during, and after your first experience.</span></p>
         
@@ -76,13 +76,13 @@ include_once($path);
 
         <p>If there’s any single product that can <span class="purple">guide you towards experiencing Astral Projection,</span> this is it.</p>
 
-        <p><span aweber-field="name">Friend</span>, I know that Astral Projection is something that really interests you… And I really want you to have this.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I know that Astral Projection is something that really interests you… And I really want you to have this.</p>
 
         <p>So, I want to offer this to you at the low price of just <strike>$37</strike> <span class="purple">$17.</span></p>
 
         <p>That’s all.</p>
 
-        <p><span aweber-field="name">Friend</span>, you have nothing to lose…</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, you have nothing to lose…</p>
 
         <p>And just like all of our products, your purchase of the Revolution of Astral Projection will be protected by our <span class="purple">60 day money-back guarantee…</span></p>
     
@@ -102,7 +102,7 @@ include_once($path);
 
         <p>And your chance to <span class="purple">successfully perform your astral projection</span> is gradually diminishing as the clock ticks.</p>
 
-        <p>Once again, this <span class="purple">one-time price of $17</span> isn’t going to last forever… So, be swift to act, <span aweber-field="name">Friend</span>.</p>
+        <p>Once again, this <span class="purple">one-time price of $17</span> isn’t going to last forever… So, be swift to act, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
         
         <p>Now, simply click on the button below to receive your copy of The Revolution Of Astral Projection!</p>
     </div>

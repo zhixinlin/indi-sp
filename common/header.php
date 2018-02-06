@@ -21,6 +21,7 @@
 
     <!-- Custom styles and scripts -->
     <link rel="stylesheet" href="/sp/assets/css/style.css">
+    <script src="/sp/common/js/custom.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   </head>
 

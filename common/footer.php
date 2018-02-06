@@ -6,5 +6,8 @@
         <p class="small">&copy; Copyright <script>document.write(new Date().getFullYear());</script> | Individualogist.com | All Rights Reserved</p>
 </div>
 
+<?php
+include 'tracking.php';
+?>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Individualogist.com | Reiki Energy Channelling Mastery";
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/header.php');
+$path .= ('/sp/common/header.php');
 include_once($path);
 ?>
 <body>
@@ -11,14 +11,14 @@ include_once($path);
         </div>
         
     <div class="recm-header">
-        <h1>Dear <span aweber-field="name">Friend</span>, This Is Your Final Chance To Secure Your Title As An <span class="goldenrod">Energy Healer...</span></h1>
+        <h1>Dear <span class="capitalize"><?php echo $_GET['name']?></span>, This Is Your Final Chance To Secure Your Title As An <span class="goldenrod">Energy Healer...</span></h1>
         <h3>…Before You Proceed, Be Warned That This Information Has The Ability To Unlock An <span class="goldenrod">Untapped Source Of Energy And Healing</span> Within You.</h3>
     </div>
 
     <div class="recm-reading">
         <p>Before we move on to the final step of receiving your Elemental Paradigm, I want to share with you a little bit more about what I’ve uncovered about you…</p>
         
-        <p>Based on what you’ve told me about yourself thus far, <span aweber-field="name">Friend</span>, I can tell that you’re someone who truly <span class="purple">values knowledge.</span> Unlike others, you see knowledge is more than just a tool…</p>
+        <p>Based on what you’ve told me about yourself thus far, <span class="capitalize"><?php echo $_GET['name']?></span>, I can tell that you’re someone who truly <span class="purple">values knowledge.</span> Unlike others, you see knowledge is more than just a tool…</p>
         
         <img class="img-intext" src="../assets/img/recm-1.png">
         
@@ -28,21 +28,21 @@ include_once($path);
 
         <p>…And it is through that realization that <span class="purple">wisdom is bestowed</span> upon you.</p>
 
-        <p>I see that part of you, <span aweber-field="name">Friend</span> – its like a <span class="purple">star in your heart</span> that glimmers and beams with pride.</p>
+        <p>I see that part of you, <span class="capitalize"><?php echo $_GET['name']?></span> – its like a <span class="purple">star in your heart</span> that glimmers and beams with pride.</p>
 
-        <p>That is why I’m sharing additional resources with you, <span aweber-field="name">Friend</span>… Because unlike others, you’re not one to dismiss the <span class="purple">importance of knowledge and growth.</span></p>
+        <p>That is why I’m sharing additional resources with you, <span class="capitalize"><?php echo $_GET['name']?></span>… Because unlike others, you’re not one to dismiss the <span class="purple">importance of knowledge and growth.</span></p>
 
         <p>You’re curious about yourself, and that curiosity drives you to learn more, and more. If there’s any single trait within you that will skyrocket your growth to success, it is your <span class="purple">insatiable thirst for knowledge.</span></p>
 
-        <p><span aweber-field="name">Friend</span> – allow me to say this…</p>
+        <p><span class="capitalize"><?php echo $_GET['name']?></span> – allow me to say this…</p>
 
         <p>There is no greater power than one’s <span class="purple">spiritual energy.</span> I’d like you to ponder upon that for a second – let the words flow off your tongue as if it were your own, personal mantra.</p>
 
         <p>“There is no greater power than one’s spiritual energy.”</p>
 
-        <p>Dubious? Fret not, <span aweber-field="name">Friend</span> – I’ll explain what I mean shortly.</p>
+        <p>Dubious? Fret not, <span class="capitalize"><?php echo $_GET['name']?></span> – I’ll explain what I mean shortly.</p>
 
-        <p>Spiritual energy is no less real than any other form of energy, <span aweber-field="name">Friend</span>… It’s as real as electricity, as nuclear power, as physical strength, as mental dexterity.</p>
+        <p>Spiritual energy is no less real than any other form of energy, <span class="capitalize"><?php echo $_GET['name']?></span>… It’s as real as electricity, as nuclear power, as physical strength, as mental dexterity.</p>
 
         <p>But it’s also <span class="purple">far more significant</span> than any other form of energy…</p>
 
@@ -58,11 +58,11 @@ include_once($path);
         
         <img class="img-intext" src="../assets/img/recm-2.png">
 
-        <p>Yes, you guessed it, <span aweber-field="name">Friend</span>! This is what <span class="purple">forms the foundation</span> of our vital bodily functions.</p>
+        <p>Yes, you guessed it, <span class="capitalize"><?php echo $_GET['name']?></span>! This is what <span class="purple">forms the foundation</span> of our vital bodily functions.</p>
 
         <p>And as you can imagine, any disruption to this flow will <span class="purple">harm</span> our organs, cells, and tissues.</p>
 
-        <p>This is what the study of Reiki is all about, <span aweber-field="name">Friend</span>…</p>
+        <p>This is what the study of Reiki is all about, <span class="capitalize"><?php echo $_GET['name']?></span>…</p>
 
         <p>It’s about attaining a level of control over your spiritual energy – consciously being able to <span class="purple">raise your vibration levels</span> of this energy field and charging it with positive energy.</p>
 
@@ -84,7 +84,7 @@ include_once($path);
     
         <h2 class="recm-sub-header">You Can Become A Master At Reiki Energy Channelling In Mere Days</h2>
     
-        <p>I understand, <span aweber-field="name">Friend</span>. Learning something from scratch can be extremely daunting.</p>
+        <p>I understand, <span class="capitalize"><?php echo $_GET['name']?></span>. Learning something from scratch can be extremely daunting.</p>
 
         <p>But I promise you this. Learning the art of Reiki <span class="purple">isn’t something complex</span> – at least, not for someone of your capabilities...</p>
 
@@ -98,7 +98,7 @@ include_once($path);
 
         <p>And by the end of it, you’ll be the <span class="purple">go-to expert</span> for all things healing-related, earning you the prestigious title of an <span class="purple">Energy Healer.</span></p>
 
-        <p>Your Reiki Energy Channelling Mastery kit isn’t going to cost you much either, <span aweber-field="name">Friend</span>…</p>
+        <p>Your Reiki Energy Channelling Mastery kit isn’t going to cost you much either, <span class="capitalize"><?php echo $_GET['name']?></span>…</p>
 
         <p>…As you can imagine, possessing the power to actively heal yourself and others is extremely powerful.</p>
 
@@ -132,7 +132,7 @@ include_once($path);
 
         <p>Perhaps you’ve been experiencing difficulties in your life recently.</p>
 
-        <p>All of this <span class="purple">can be and will be alleviated</span> when you <span class="purple">attain mastery</span> over Reiki Energy Channelling, <span aweber-field="name">Friend</span>.</p>
+        <p>All of this <span class="purple">can be and will be alleviated</span> when you <span class="purple">attain mastery</span> over Reiki Energy Channelling, <span class="capitalize"><?php echo $_GET['name']?></span>.</p>
 
         <p><span class="purple">Take this affirmative leap,</span> and you will unlock the floodgates to a pool of limitless energy…</p>
 
@@ -147,12 +147,12 @@ include_once($path);
 
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/common-faq.php');
+$path .= ('/sp/common/common-faq.php');
 include_once($path);
 ?>
 </div>
 <?php 
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/footer.php');
+$path .= ('/sp/common/footer.php');
 include_once($path); 
 ?>

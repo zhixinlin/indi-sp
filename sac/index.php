@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Individualogist.com | Sacred Archetypal Collection";
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/header.php');
+$path .= ('/sp/common/header.php');
 include_once($path);
 ?>
 <body>
@@ -11,20 +11,61 @@ include_once($path);
         </div>
         
     <div class="sac-header">
-        <h1><span aweber-field="name">Friend</span>, Your <span class="goldenrod">Archetypal Initiation Cycle</span> Begins Now.</h1>
+        <h1><span class="capitalize"><?php echo $_GET['name']; ?></span>, Your <span class="goldenrod">Archetypal Initiation Cycle</span> Begins Now.</h1>
         <h3>Are You Ready To  <span class="purple">Discover</span> What This Means For  <span class="purple">You, And Your Archetype?</span></h3>
     </div>
 
     <div class="sac-reading">
-        <span class="archetype-xl caregiver"></span>
+        <?php
+        switch($_GET['archetype']){
+        case "caregiver": //Form Page
+            echo "<span class='archetype-xl caregiver'></span>";
+            break;
+        case "creator": //Form Page
+            echo "<span class='archetype-xl creator'></span>";
+            break;
+        case "explorer": //Form Page
+            echo "<span class='archetype-xl explorer'></span>";
+            break;
+        case "hero": //Form Page
+            echo "<span class='archetype-xl hero'></span>";
+            break;
+        case "innocent": //Form Page
+            echo "<span class='archetype-xl innocent'></span>";
+            break;
+        case "jester": //Form Page
+            echo "<span class='archetype-xl jester'></span>";
+            break;
+        case "lover": //Form Page
+            echo "<span class='archetype-xl lover'></span>";
+            break;
+        case "magician": //Form Page
+            echo "<span class='archetype-xl magician'></span>";
+            break;
+        case "member": //Form Page
+            echo "<span class='archetype-xl member'></span>";
+            break;
+        case "outlaw": //Form Page
+            echo "<span class='archetype-xl outlaw'></span>";
+            break;
+        case "ruler": //Form Page
+            echo "<span class='archetype-xl ruler'></span>";
+            break;
+        case "sage": //Form Page
+            echo "<span class='archetype-xl sage'></span>";
+            break;
+        default: //Any page that is not defined in this switch will lead to this page
+            echo "<span class='archetype-xl caregiver'></span>";
+    }
+    ?>
         
-        <p>Dear <span aweber-field="name">Friend</span>,</p>
+        <p>Dear <span class="capitalize"><?php echo $_GET['name']; ?></span>,</p>
         
         <p>I’ve been meaning to get in touch with you, because I’m incredibly excited!</p>
 
         <p>Why? Well, because I have a <span class="purple">life-altering message</span> to share with you today.</p>
 
-        <p>I know, I know… Perhaps it sounds too good to be true. But believe me, <span aweber-field="name">Friend</span>. This is something you’ll want to see. So, <span class="purple">stay with me</span> now.</p>
+        <p>I know, I know… Perhaps it sounds too good to be true. But believe me, <span class="capitalize"><?php echo $_GET['name']; ?></span>. This is something you’ll want to see. So, <span class="purple">stay with me</span> now.</p>
 
         <p>You’ve only recently been introduced to your archetype – The 
     <?php echo $_GET['archetype']; if(empty($_GET)) { echo 'Caregiver'; 
@@ -37,9 +78,9 @@ include_once($path);
 
         <p>It’s flabbergasting, isn’t it?</p>
 
-        <p>Fret not, <span aweber-field="name">Friend</span>. We’re about to reveal <span class="purple">all there is to know</span> about how archetypes work, and exactly what you can do with that information.</p>
+        <p>Fret not, <span class="capitalize"><?php echo $_GET['name']; ?></span>. We’re about to reveal <span class="purple">all there is to know</span> about how archetypes work, and exactly what you can do with that information.</p>
         
-        <h2 class="sac-sub-header"><span aweber-field="name">Friend</span>, archetypes represent the <span class="goldenrod">original model</span> of a person...</h2>
+        <h2 class="sac-sub-header"><span class="capitalize"><?php echo $_GET['name']; ?></span>, archetypes represent the <span class="goldenrod">original model</span> of a person...</h2>
         
         <p>…A personality pattern that resides within the <span class="purple">collective unconscious…</span></p>
         
@@ -47,17 +88,17 @@ include_once($path);
 
         <p>And when we seek to align ourselves to our archetypes, we’ll ultimately attain a <span class="purple">profound and enlightened understanding</span> of ourselves – and the world. Or what we know as, individuation.</p>
 
-        <p>That’s right, <span aweber-field="name">Friend</span> – you guessed it! Individuation encompasses literally <span class="purple">all aspects</span> of what it means to be a human being. Whether it’s <span class="purple">health, wealth, or even love!</span></p>
+        <p>That’s right, <span class="capitalize"><?php echo $_GET['name']; ?></span> – you guessed it! Individuation encompasses literally <span class="purple">all aspects</span> of what it means to be a human being. Whether it’s <span class="purple">health, wealth, or even love!</span></p>
 
         <p>Imagine possessing an <span class="purple">intrinsic compass</span> within your soul – one that guides you towards making the right choices, and leads you towards a life of <span class="purple">spiritual healing and instinctive guidance.</span></p>
         
-        <h2 class="sac-sub-header">Now <span aweber-field="name">Friend</span>, remember what I said earlier about a <span class="goldenrod">life-altering message?</span></h2>
+        <h2 class="sac-sub-header">Now <span class="capitalize"><?php echo $_GET['name']; ?></span>, remember what I said earlier about a <span class="goldenrod">life-altering message?</span></h2>
         
         <img class="img-intext" src="../assets/img/sac2.png">
         
         <p>Well, here it is…</p>
 
-        <p><span aweber-field="name">Friend</span>. You have been chosen.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>. You have been chosen.</p>
 
         <p>You have been <span class="purple">handpicked</span> by the Collective Unconscious to embark on a <span class="purple">journey of epic proportions…</span></p>
 
@@ -67,21 +108,21 @@ include_once($path);
 
         <p>A journey of self-discovery, and universal <span class="purple">understanding.</span></p>
 
-        <p>This journey, <span aweber-field="name">Friend</span>, is otherwise known as the <span class="purple">Archetypal Initiation Cycle.</span></p>
+        <p>This journey, <span class="capitalize"><?php echo $_GET['name']; ?></span>, is otherwise known as the <span class="purple">Archetypal Initiation Cycle.</span></p>
 
         <p>And without even realizing it, you’ve already taken the first step.</p>
 
-        <p>I’m sure you can recall the Archetype Reading that you received, <span aweber-field="name">Friend</span>.</p>
+        <p>I’m sure you can recall the Archetype Reading that you received, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>And within that reading, I left a few little hints about your destiny.</p>
 
         <p>I’m sure you’ve picked up on this already. Even if you didn’t, it’s nothing to worry about.</p>
 
-        <p>Because either way, <span aweber-field="name">Friend</span>, regardless of your <span class="purple">thoughts and the decisions</span> that you’ve made, you are exactly where you need to be.</p>
+        <p>Because either way, <span class="capitalize"><?php echo $_GET['name']; ?></span>, regardless of your <span class="purple">thoughts and the decisions</span> that you’ve made, you are exactly where you need to be.</p>
 
         <p>Right at this very moment, and right at this very second.</p>
 
-        <p>…I know what you’re thinking, <span aweber-field="name">Friend</span>.</p>
+        <p>…I know what you’re thinking, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>“I’m not so sure about this… Maybe there’s been some sort of mistake… How do I know if this is even real?”</p>
         
@@ -89,17 +130,17 @@ include_once($path);
         
         <p>I trust that you’re familiar with the traits of <span class="purple">spiritual emergence.</span></p>
 
-        <p>Few people have been fortunate enough to be in the position that you’re in right now, <span aweber-field="name">Friend</span>.</p>
+        <p>Few people have been fortunate enough to be in the position that you’re in right now, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>In fact, few have even had the opportunity to <span class="purple">encounter</span> their archetypes in the first place.</p>
 
         <p>This is a journey that has the potential to massively <span class="purple">transform</span> your life!</p>
 
-        <p>There exists an intense amount of <span class="purple">archetypal energy</span> deep within your archetype, <span aweber-field="name">Friend</span>.</p>
+        <p>There exists an intense amount of <span class="purple">archetypal energy</span> deep within your archetype, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>And by embarking on your Archetypal Initiation Cycle, you will be able to tap into that pool of archetypal energy to overcome the <span class="purple">greatest obstacles</span> that stand before you…</p>
 
-        <h2 class="sac-sub-header"><span aweber-field="name">Friend</span>, That Includes Your <span class="goldenrod">Past, Present, And Future...</span></h2>
+        <h2 class="sac-sub-header"><span class="capitalize"><?php echo $_GET['name']; ?></span>, That Includes Your <span class="goldenrod">Past, Present, And Future...</span></h2>
         
         <p>I’m sensing that the immediate challenges that stand before you revolve around one thing…</p>
 
@@ -111,9 +152,9 @@ include_once($path);
 
         <p>Or perhaps you’re even <span class="purple">fearful of the future,</span> which is why you prevent yourself from moving forward.</p>
 
-        <p>You have nothing to fear, <span aweber-field="name">Friend</span>.</p>
+        <p>You have nothing to fear, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
-        <p>You see, <span aweber-field="name">Friend</span>, your Archetypal Initiation Cycle is the <span class="purple">optimal period</span> for you to embark on something new…</p>
+        <p>You see, <span class="capitalize"><?php echo $_GET['name']; ?></span>, your Archetypal Initiation Cycle is the <span class="purple">optimal period</span> for you to embark on something new…</p>
 
         <p>To explore the unexplored.</p>
 
@@ -127,11 +168,11 @@ include_once($path);
         
         <img class="img-intext" src="../assets/img/sac-cover.png">
         
-        <p>It’s time for you to translate everything you’ve known about your archetype into action, <span aweber-field="name">Friend</span>.</p>
+        <p>It’s time for you to translate everything you’ve known about your archetype into action, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
             
         <p>Because I know for a fact that’s your path towards creating life-altering <span class="purple">opportunities</span> for yourself.</p>
 
-        <p>I’ve said this once, and I’ll say it again, <span aweber-field="name">Friend</span>…</p>
+        <p>I’ve said this once, and I’ll say it again, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
 
         <p>You are destined for <span class="purple">greatness.</span></p>
 
@@ -141,7 +182,7 @@ include_once($path);
 
         <p>Allow me to introduce to you your <span class="purple">Personalized Sacred Archetypal Collection.</span></p>
 
-        <p>This collection comprises 2 <span class="purple">alluring and life-enhancing materials</span> that will help you take the plunge into your archetype, The <span aweber-field="archetype">Archetype</span>, and integrate it completely into your subconscious.</p>
+        <p>This collection comprises 2 <span class="purple">alluring and life-enhancing materials</span> that will help you take the plunge into your archetype, The <?php echo $_GET['archetype']; ?>, and integrate it completely into your subconscious.</p>
         
         <h2 class="sac-sub-header">Your Archetypal Affirmations</h2>
         
@@ -151,7 +192,7 @@ include_once($path);
 
         <p>Each affirmation is to be recited each day, and leverages on the optimal period of 21 days for <span class="purple">forming positive habits.</span></p>
 
-        <p>Do not underestimate the power of affirmations, <span aweber-field="name">Friend</span>.</p>
+        <p>Do not underestimate the power of affirmations, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>Affirmitive actions begin with affirmitive thoughts. And affirmitive thoughts, originate from affirmations.</p>
 
@@ -159,7 +200,7 @@ include_once($path);
 
         <p>Each sentence and saying has been carefully strung together to be absorbed by your <span class="purple">subconscious,</span> and ingested by your soul.</p>
 
-        <p><span aweber-field="name">Friend</span>, I have no doubt that the Archetypal Affirmations Guide is the very first step that you must take towards <span class="purple">integrating</span> your archetype into your existence, and continuing the journey of your Archetypal Initiation Cycle.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I have no doubt that the Archetypal Affirmations Guide is the very first step that you must take towards <span class="purple">integrating</span> your archetype into your existence, and continuing the journey of your Archetypal Initiation Cycle.</p>
 
         <p>…It will annihilate your weaknesses, enhance your strengths, and create <span class="purple">lasting behavioural changes</span> deep within you.</p>
     
@@ -169,7 +210,7 @@ include_once($path);
     
         <p>Your archetype isn’t one that struggles with seeing right through people. However, you are sometimes <span class="purple">blindsided</span> by the people you trust most… Betrayed, even.
 
-        <p><span aweber-field="name">Friend</span>, that’s because your Archetype has yet to be fully integrated into your life, and you’re unable to tap into your <span class="purple">pool of archetypal energy.</span></p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, that’s because your Archetype has yet to be fully integrated into your life, and you’re unable to tap into your <span class="purple">pool of archetypal energy.</span></p>
 
         <p>And that’s what your <span class="purple">Archetypal Love Compatibility Guide</span> will teach you.</p>
 
@@ -183,9 +224,9 @@ include_once($path);
 
         <p>Imagine all the time and heartache you’ll save! And although the Archetypal Love Compatibility Guide speaks primarily about love, it can also be interpreted and applied to non-romantic relationships as well.</p>
 
-        <p><span aweber-field="name">Friend</span>, believe me, having all of this information in your backpocket is bound to unlock <span class="purple">sizeable rewards</span> for you…</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, believe me, having all of this information in your backpocket is bound to unlock <span class="purple">sizeable rewards</span> for you…</p>
     
-        <h2 class="sac-sub-header">But that’s only if you choose to <span class="goldenrod">trust in the process,</span> <span aweber-field="name">Friend</span>.</h2>
+        <h2 class="sac-sub-header">But that’s only if you choose to <span class="goldenrod">trust in the process,</span> <span class="capitalize"><?php echo $_GET['name']; ?></span>.</h2>
     
         <p>Within the Sacred Archetypal Collection, you will discover (among other things):</p>
         
@@ -196,7 +237,7 @@ include_once($path);
             <li>The most effective way of determining ideal, potential partners in both love and life</li>
         </ul>    
     
-        <p>Now, here’s what I want you to do, <span aweber-field="name">Friend</span>.</p>
+        <p>Now, here’s what I want you to do, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>As we’ve already seen from your Archetypal Initiation Cycle, the next 21 days are going to be detrimental to your journey. And the time for you to act is now… Before it’s too late.</p>
 
@@ -204,19 +245,19 @@ include_once($path);
         
         <img class="img-intext" src="../assets/img/sac5.png">    
     
-        <p><span aweber-field="name">Friend</span>, I want you to imagine the <span class="purple">life of your dreams floating before you...</span> A ball of energy that manifests all of your life’s dreams and desires.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I want you to imagine the <span class="purple">life of your dreams floating before you...</span> A ball of energy that manifests all of your life’s dreams and desires.</p>
         
         <p>It’s larger than life, more colourful than rainbows, and it glows brighter than the sun…</p>
 
-        <p>A truly magnificent sight to behold, isn’t it, <span aweber-field="name">Friend</span>?</p>
+        <p>A truly magnificent sight to behold, isn’t it, <span class="capitalize"><?php echo $_GET['name']; ?></span>?</p>
 
-        <p>…But here’s the thing, <span aweber-field="name">Friend</span>…</p>
+        <p>…But here’s the thing, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
 
         <p>Each day that you choose to say “no” to an opportunity that allows you to unleash that energy, that ball shrinks. And as it shrinks, it also dims. It grows smaller, and smaller, and smaller…</p>
 
         <p>…Until it eventually vanishes.</p>
 
-        <p>I know that’s not what you want, <span aweber-field="name">Friend</span>. I don’t want you to be part of the skeptics and the cynics either – because <span class="purple">that’s not who you are.</span></p>
+        <p>I know that’s not what you want, <span class="capitalize"><?php echo $_GET['name']; ?></span>. I don’t want you to be part of the skeptics and the cynics either – because <span class="purple">that’s not who you are.</span></p>
 
         <p>You are an <span class="purple">optimistic and lively being.</span> I see that in you. I see that in your archetype. In fact, I know that you see that in yourself too…</p>
     </div>
@@ -228,11 +269,11 @@ include($path);
 ?>
     
     <div class="sac-reading">
-        <h2 class="sac-sub-header"><span class="goldenrod">Archetypal Initiation Cycles</span> are not to be taken lightly, <span aweber-field="name">Friend</span>…</h2>
+        <h2 class="sac-sub-header"><span class="goldenrod">Archetypal Initiation Cycles</span> are not to be taken lightly, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</h2>
         
         <p>But your once in a life time cycle is <span class="purple">gradually fleeting</span> – slipping between your fingers.
 
-        <p>You must grasp now before it’s too late, <span aweber-field="name">Friend</span>.</p>
+        <p>You must grasp now before it’s too late, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>In just moments, you can commence your <span class="purple">Archetypal Journey</span> and witness positive events unfold in your days to come…
 
@@ -242,13 +283,13 @@ include($path);
 
         <p>And soon, you will be grateful for trusting in your Archetypal Initiation Cycle.</p>
 
-        <p>Everything you’ve ever desired – your happiness and joy, resides within your hands, <span aweber-field="name">Friend</span>.</p>
+        <p>Everything you’ve ever desired – your happiness and joy, resides within your hands, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
-        <p>This is the opportunity that you’ve been waiting for. And I promise you this, <span aweber-field="name">Friend</span>, you will be well taken care of.</p>
+        <p>This is the opportunity that you’ve been waiting for. And I promise you this, <span class="capitalize"><?php echo $_GET['name']; ?></span>, you will be well taken care of.</p>
 
         <p>If you’re still reading this, I just want you to know that I understand your hesitance. You have a myriad of doubts, uncertainties, and questions racing through your head.</p>
 
-        <p>I want you to take a deep breath right now, <span aweber-field="name">Friend</span>. And I want you to listen very carefully to what I’m about to say next.</p>
+        <p>I want you to take a deep breath right now, <span class="capitalize"><?php echo $_GET['name']; ?></span>. And I want you to listen very carefully to what I’m about to say next.</p>
 
         <p>The Sacred Archetypal Collection is <span class="purple">not</span> going for $100, even though the information found in this exclusive reading is easily <span class="purple">worth TWICE that amount.</span></p>
 
@@ -256,13 +297,13 @@ include($path);
 
         <p>I know that for a fact, because just like you, I’m a <span class="purple">conscious individual</span> who invests in my own personal growth.</p>
 
-        <p>No, <span aweber-field="name">Friend</span>, the Sacred Archetypal Collection is <span class="purple">not</span> about being lacklustre.
+        <p>No, <span class="capitalize"><?php echo $_GET['name']; ?></span>, the Sacred Archetypal Collection is <span class="purple">not</span> about being lacklustre.
 
         <p>This offer delivers to you <span class="purple">instant, easy-to-follow, and actionable</span> information that will help you soar to new heights.</p>
 
         <p>It allows you to leverage on the strengths of your archetype to create lasting behavioural changes, and understand others at a far more detailed and fundamental level.</p>
 
-        <p>Yes, <span aweber-field="name">Friend</span>. You can finally <span class="purple">make a breakthrough</span> in your work life, develop even more fruitful relationships, and experience a level of <span class="purple">self-understanding</span> that will open up your heart and mind to the various possibilities that life has in store for you.</p>
+        <p>Yes, <span class="capitalize"><?php echo $_GET['name']; ?></span>. You can finally <span class="purple">make a breakthrough</span> in your work life, develop even more fruitful relationships, and experience a level of <span class="purple">self-understanding</span> that will open up your heart and mind to the various possibilities that life has in store for you.</p>
 
         <p>And it all begins with <span class="purple">just $17.</span></p>
     </div>
@@ -274,9 +315,9 @@ include($path);
 ?>
     
     <div class="sac-reading">
-        <p><span aweber-field="name">Friend</span>, there is just one catch. But this is a catch that you’re going to like.</p>
+        <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, there is just one catch. But this is a catch that you’re going to like.</p>
         
-        <p>You see, <span aweber-field="name">Friend</span>, a lot of time and energy has gone into the creation of the Sacred Archetypal Collection.</p>
+        <p>You see, <span class="capitalize"><?php echo $_GET['name']; ?></span>, a lot of time and energy has gone into the creation of the Sacred Archetypal Collection.</p>
 
         <p>The price has been <span class="purple">reduced significantly</span> to grant you the true value that you seek.</p>
 
@@ -288,7 +329,7 @@ include($path);
 
         <p>As long as you do that, we are more than happy to offer you your Sacred Archetypal Collection at the <span class="purple">miniscule price point of just $17.</span></p>
 
-        <p>But that’s not all, <span aweber-field="name">Friend</span>. On top of that, we’re throwing in a 60-day money back guarantee that will protect you from your purchase. But I do urge you to actually follow the affirmations and the love compatibility guide for at least 21 days before deciding that it isn’t for you.</p>
+        <p>But that’s not all, <span class="capitalize"><?php echo $_GET['name']; ?></span>. On top of that, we’re throwing in a 60-day money back guarantee that will protect you from your purchase. But I do urge you to actually follow the affirmations and the love compatibility guide for at least 21 days before deciding that it isn’t for you.</p>
         
         <div class="guarantee">
             <img src="../assets/img/guarantee.png">
@@ -297,7 +338,7 @@ include($path);
             <p>Protecting the purchases of our customers is important to us. We firmly believe in building and keeping your trust, Friend. And you have my personal guarantee that this material will help you reap all the benefits that I’ve mentioned – and MORE</p>
         </div>
         
-        <p>It is time to make a decision, <span aweber-field="name">Friend</span>.</p>
+        <p>It is time to make a decision, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
         
         <p>I can’t guarantee you that the price will not go up as soon as you leave this page.</p>
 
@@ -309,7 +350,7 @@ include($path);
 
         <p>All you have to do is click on the button below, and all of these benefits will be delivered straight to you. <span class="purple">Effortlessly, and instantly.</span></p>
 
-        <p>We’ll speak again soon, <span aweber-field="name">Friend</span>.</p>
+        <p>We’ll speak again soon, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>And I look forward to having you in the Individualogist family!</p>
     </div>
@@ -322,12 +363,12 @@ include($path);
     
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/common-faq.php');
+$path .= ('/sp/common/common-faq.php');
 include_once($path);
 ?>
 
 <?php 
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/footer.php');
+$path .= ('/sp/common/footer.php');
 include_once($path); 
 ?>

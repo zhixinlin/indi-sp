@@ -6,15 +6,15 @@
                     <tbody>
                         <tr class="details">
                             <td class="right">Name:</td>
-                            <td class="left"><span aweber-field="name">Name</span></td>
+                            <td class="left"><span class="capitalize"><?php echo $_GET['name']?></span>></td>
                         </tr>
                         <tr class="details">
                             <td class="right">Email:</td>
-                            <td class="left"><span aweber-field="email">Email</td>
+                            <td class="left"><?php echo $_GET['email']?></td>
                         </tr>
                         <tr class="details">
                             <td class="right">Archetype:</td>
-                            <td class="left"><span aweber-field="archetype">Archetype</td>
+                            <td class="left"><span class="capitalize"><?php echo $_GET['archetype']?></span></td>
                         </tr>
                     </tbody>
                 </table>

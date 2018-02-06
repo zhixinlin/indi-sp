@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Individualogist.com | Diminishing Your Shadow";
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/header.php');
+$path .= ('/sp/common/header.php');
 include_once($path);
 ?>
 <body>
@@ -183,12 +183,12 @@ include_once($path);
 
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/common-faq.php');
+$path .= ('/sp/common/common-faq.php');
 include_once($path);
 ?>
 </div>
 <?php 
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/footer.php');
+$path .= ('/sp/common/footer.php');
 include_once($path); 
 ?>

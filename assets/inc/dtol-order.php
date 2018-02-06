@@ -6,7 +6,7 @@
                     <tbody>
                         <tr class="details">
                             <td class="right">Name:</td>
-                            <td class="left"><span class="capitalize"><?php echo $_GET['name']?></span>></td>
+                            <td class="left"><span class="capitalize"><?php echo $_GET['name']?></span></td>
                         </tr>
                         <tr class="details">
                             <td class="right">Email:</td>
@@ -24,4 +24,4 @@
             After clicking on the "Order Now" button, you will be taken to a secure checkout area to reserve and purchase this premium product. Your Divine Tree of Life trial membership begins at $7. After the trial period of 14 days, you will then be billed $19.90 a month. Once again, your purchase is protected by our 60-Day Money-Back Guarantee.
             </div>
         </div>
-    </div>    
+    </div>

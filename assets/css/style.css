@@ -152,7 +152,7 @@
         background: url('/assets/img/chc-bg.jpg');
     }
     .order-img {
-        width: 40%;
+        width: 35%;
         display: block;
         float: left;
         text-align: center;
@@ -312,7 +312,7 @@
 /*---- Archetype Icons Start ----*/
 
     .archetype-xl, .element-xl {
-        width: 300px;    
+        width: 300px;
         height: 300px;
         display: block;
         filter: drop-shadow(3px 3px 5px #000);
@@ -323,69 +323,69 @@
     }
     .caregiver {
         background: url('../img/icons/caregiver.png') no-repeat;
-        background-size: contain;    
+        background-size: contain;
     }
     .creator {
         background: url('../img/icons/creator.png') no-repeat;
-        background-size: contain;    
+        background-size: contain;
     }
     .explorer {
         background: url('../img/icons/explorer.png') no-repeat;
-        background-size: contain;    
+        background-size: contain;
     }
     .hero {
         background: url('../img/icons/hero.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .innocent {
         background: url('../img/icons/innocent.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .jester {
         background: url('../img/icons/jester.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .lover {
         background: url('../img/icons/lover.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .magician {
         background: url('../img/icons/magician.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .member {
         background: url('../img/icons/member.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .outlaw {
         background: url('../img/icons/outlaw.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .ruler {
         background: url('../img/icons/ruler.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .sage {
         background: url('../img/icons/sage.png') no-repeat;
-        background-size: contain;  
+        background-size: contain;
     }
     .air {
         background: url('../img/air-element.png') no-repeat;
-        background-size: contain;   
+        background-size: contain;
     }
     .water {
         background: url('../img/water-element.png') no-repeat;
-        background-size: contain;   
+        background-size: contain;
     }
     .earth {
         background: url('../img/earth-element.png') no-repeat;
-        background-size: contain;   
+        background-size: contain;
     }
     .fire {
         background: url('../img/fire-element.png') no-repeat;
-        background-size: contain;   
+        background-size: contain;
     }
-    
+
 /*---- Archetype Icons End ----*/
 
 .right {
@@ -516,6 +516,7 @@ padding: 0 18px;
           width: 200px !important;
         }
         .indi-logo {
+          width: 200px;
           text-align: center;
         }
         .row {
@@ -538,7 +539,7 @@ padding: 0 18px;
           padding: 0;
         }
         .left {
-            max-width: 200px;
+            max-width: 150px;
             word-wrap: break-word;
         }
         .order-img  {
@@ -618,7 +619,7 @@ padding: 0 18px;
         border: 2px solid gold;
         border-radius: 4px;
     }
-    
+
 
 /*---- CHC End ----*/
 
@@ -653,7 +654,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .eote-header h3 {
-        font-size: 1em;    
+        font-size: 1em;
     }
     .eote-reading {
         width: 70%;
@@ -734,7 +735,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .tsol-header h3 {
-        font-size: 1em;    
+        font-size: 1em;
     }
     .tsol-reading {
         width: 70%;
@@ -802,7 +803,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .recm-header h3 {
-        font-size: 1em;    
+        font-size: 1em;
     }
     .recm-reading {
         width: 70%;
@@ -867,7 +868,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .roap-header h3 {
-        font-size: 1em;    
+        font-size: 1em;
     }
     .roap-reading {
         width: 70%;
@@ -924,7 +925,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .dys-header h3 {
-        font-size: 1em;    
+        font-size: 1em;
     }
     .dys-reading {
         width: 70%;
@@ -981,7 +982,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .sac-header h3 {
-        font-size: 1em;    
+        font-size: 1em;
     }
     .sac-reading {
         width: 70%;
@@ -1042,7 +1043,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .ep-header h3 {
-        font-size: 1.5em;    
+        font-size: 1.5em;
     }
     .ep-header p {
         font-size: 1.2em;
@@ -1126,7 +1127,7 @@ padding: 0 18px;
         font-family: 'Raleway', 'sans-serif';
     }
     .dtol-header h3 {
-        font-size: 1em;    
+        font-size: 1em;
     }
     .dtol-reading {
         width: 70%;

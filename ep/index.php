@@ -9,8 +9,7 @@ include_once($path);
 <?php
 include('ep-intro.php');
 ?>
-    
-    
+
 <?php
     switch($_GET['element']){
     case "air": //Form Page
@@ -29,27 +28,25 @@ include('ep-intro.php');
         include('air.php');
     }
 ?>
-    
+
 <?php
-$path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/ep-salescopy.php');
-include($path);
-?>    
+include('ep-salescopy.php');
+?>
 
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= ('/sp/assets/inc/ep-order.php');
 include($path);
 ?>
-    
+
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= ('/sp/common/common-faq.php');
 include_once($path);
 ?>
 
-<?php 
+<?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= ('/sp/common/footer.php');
-include_once($path); 
+include_once($path);
 ?>

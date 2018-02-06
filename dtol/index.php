@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Individualogist.com | Divine Tree Of Life";
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/header.php');
+$path .= ('/sp/common/header.php');
 include_once($path);
 ?>
 <body>
@@ -9,7 +9,7 @@ include_once($path);
         <div class="indi-logo">
             <img src="/sp/assets/img/individualogist-logo2.png">
         </div>
-        
+
     <div class="dtol-header">
         <h1><span class="capitalize"><?php echo $_GET['name']; ?></span>, This <span class="pink">One Archetype</span> Connects You To All Other Forms Of Creation… The <span class="pink">Physical Reality,</span> And The <span class="pink">Ethereal Dimension.</span> Discover This <span class="pink">Life-Changing Secret.</span></h1>
     </div>
@@ -18,9 +18,9 @@ include_once($path);
         <p>Dear <span class="capitalize"><?php echo $_GET['name']; ?></span>,</p>
 
         <p>We’ve spoken at length about your archetype. Do you remember the various personalized readings and bonus resources that we’ve shared with you…?</p>
-        
+
         <img class="img-intext" src="../assets/img/dtol-1.png">
-        
+
         <p>But I wanted to share something with you that’s <span class="pink">far more important than that.</span></p>
 
         <p>In fact, this information is <span class="pink">so quintessentially spiritual,</span> that it WILL change everything that you’ve ever thought about life itself…</p>
@@ -28,7 +28,7 @@ include_once($path);
         <p>The fate of your growth, your vibrations, your energies, and your destiny reside within this secret…</p>
 
         <p>But before we get into that, I want to tell you why you’re <span class="pink">receiving this message in the first place.</span></p>
-        
+
         <p>You’ve already familiarized yourself with your archetype, <span class="capitalize"><?php echo $_GET['name']; ?></span>. You’ve gained a profound understanding of who you are as an individual. That is not what this message is about.</p>
 
         <p>And since then, I can tell that you’ve grown even more curious about archetypes.</p>
@@ -38,17 +38,17 @@ include_once($path);
          <p>…And that is exactly what you have received this message, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
          <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, this mystical secret lies within the one, single archetype that matters…</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink">And That Archetype Is The Divine Tree Of Life</h2>
         </div>
-        
+
         <p>Perhaps you might be familiar with this concept, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
-        
+
         <p>The Divine Tree Of Life is the <span class="pink">sole recurring theme</span> across majority, if not all, <span class="pink">religions and philosophies.</span> It is one of the extremely few elements that’s been kept consistent – regardless of time, beliefs, and values.</p>
-        
+
         <img class="img-intext" src="../assets/img/dtol-2.png">
-        
+
         <p>The Tree Of Life is present in <span class="pink">Christianity, Bhuddism, the Kaballah, Norse, China, Ancient Egypt…</span> It has made its presence across nations and eras… Until today.</p>
 
         <p>Right now at this very moment, you must be filled with the <span class="pink">burning desire</span> to have your questions answered… What does the Tree Of Life mean? How does it apply to my life? Will it <span class="pink">REALLY</span> grant me good fortune?</p>
@@ -56,11 +56,11 @@ include_once($path);
         <p>Stay with me, <span class="capitalize"><?php echo $_GET['name']; ?></span>. Because I promise, you’re going to <span class="pink">like the answers</span> to those questions!</p>
 
         <p>And <span class="capitalize"><?php echo $_GET['name']; ?></span>, we’ve <span class="pink">unravelled the mysteries</span> behind this mystical archetype…</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink">...Everything We've Uncovered Will Be Revealed To You, <span class="capitalize"><?php echo $_GET['name']; ?></span>. Right Here, Right Now.</h2>
         </div>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, when you requested your <span class="pink">Archetypal Reading,</span> it indicated that you’re more than ready for <span class="pink">great transformation</span> to take place in your life. You’re ready to pry open the <span class="pink">floodgates</span> of growth, healing, and abundance.</p>
 
         <p>Not many are as <span class="pink">courageous or curious</span> as you to want to learn more about themselves.</p>
@@ -74,15 +74,15 @@ include_once($path);
         <p>Your archetype is deeply connected to the <span class="pink">Wise Old Man archetype</span> – an archetype that’s distinguished for its <span class="pink">astute judgments and intuitive wisdom.</span> That is a trait that’s present within you and your archetype, <span class="capitalize"><?php echo $_GET['name']; ?></span></p>
 
         <p>You’re an individual who seeks answers to questions that concern yourself at a deeper, <span class="pink">far more personal level.</span> Questions that you’ve been dying to know the answers to for months, or perhaps years now…</p>
-        
+
         <div class="dtol-sub-header">
             <h2><span class="capitalize"><?php echo $_GET['name']; ?></span>, The Answers To All Of Your Questions Lie Within The Tree Of Life.</h2>
         </div>
-        
+
         <p>The Tree Of Life is a <span class="pink">Mythical Archetype</span> – which means that unlike other archetypes, it’s an element, a concept, that has remained consistent through centuries, ages, and eras.</p>
-        
+
         <img class="img-intext" src="../assets/img/dtol-3.png">
-        
+
         <p>…<span class="capitalize"><?php echo $_GET['name']; ?></span>, do you remember what I mentioned earlier about it being present in religion and philosophy?</p>
 
         <p>This is exactly what I mean.</p>
@@ -102,27 +102,27 @@ include_once($path);
         <p>Its presence is known on <span class="pink">ancient artefacts</span> found at the ancient city of Troy, and even on the most ancient examples of Greek art.</p>
 
         <p>The interpretation of these symbols found in the <span class="pink">Bronze Age</span> is what ultimately led to the discovery of this age-old theme, which can now be finally applied and used to help you make an actual breakthrough in your life.</p>
-        
+
         <img class="img-intext" src="../assets/img/dtol-4.png">
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I’m not just talking about a single aspect… I’m talking about <span class="pink">ALL aspects</span> of your life…</p>
-        
+
         <p>Imagine if you had these <span class="pink">remarkable traits</span> right at the tips of your fingers…</p>
-                
+
         <p>Infinite luck… Profound wisdom… Internal healing… And abundance beyond measure.</p>
 
         <p>…But how?</p>
 
         <p>You see, <span class="capitalize"><?php echo $_GET['name']; ?></span>, by attaining an understanding of this mythical archetype, and of the natural phenomenon that inspired it, you will receive the ultimate key to <span class="pink">decoding and eliminating all of your <span class="pink">spiritual enigmas, mental blockades, and physical limitations.</span></p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink">Receiving Wisdom, Fortune, And Abundance From The Tree Of Life</h2>
         </div>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, think of the Tree Of Life is an <span class="pink">infinite pool of energy</span> – a tree that constantly bears fruit for your personal consumption. And in this case, what you’ll be consuming is knowledge, wisdom, and growth.</p>
 
         <p>And as you engage yourself in that process, you’ll start to experience the wonders of the Tree Of Life…</p>
-        
+
         <ul class="bullet-purple">
             <li>You will be given direction and intuitive guidance across all facets of life</li>
             <li>You will experience luck and good fortune in everything that you do</li>
@@ -130,7 +130,7 @@ include_once($path);
             <li>You will attract the right people into your life, while subconsciously distancing yourself from the wrong</li>
             <li>You will grow to be the individual that you were meant to be… An individual of limitless potential</li>
         </ul>
-        
+
         <p>This is the real deal, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>The Divine Tree Of Life is an exclusive program that we have constructed over the course of several years.</p>
@@ -140,9 +140,9 @@ include_once($path);
         <p>The contents of this program are one-of-a-kind. And not only is it unique, but it’s also one of the most effective programs that’s ever been created.</p>
 
         <p>In the Divine Tree Of Life, we have prepared for you nothing but <span class="pink">facts, knowledge, and powerful information</span> that will literally take all the pain and stress out of your personal transformation journey.</p>
-        
+
         <img class="img-intext" src="../assets/img/dtol-5.png">
-        
+
         <p><span class="pink">No more</span> difficult jargon and complicated concepts.</p>
 
         <p><span class="pink">No more</span> meaningless and irrelevant information that doesn’t apply to you.</p>
@@ -160,11 +160,11 @@ include_once($path);
         <p>And let me tell you this, <span class="capitalize"><?php echo $_GET['name']; ?></span>, there is nothing in the world that’s more <span class="pink">rewarding</span> than seeing yourself become better and better every single day.</p>
 
         <p>The Divine Tree Of Life has been used and implemented in my own life, and it has given me <span class="pink">abundance beyond measure…</span> And it can do the same for you.</p>
-        
+
         <div class="dtol-sub-header">
             <h2>The Signs, Symbols, And Meanings Buried Underneath The Tree Of Life</h2>
         </div>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, as promised, I’m going to reveal to you a snippet of what the Tree Of Life encompasses.</p>
 
         <p>The Tree Of Life is the connection to all things. And by all things, I mean ALL things.</p>
@@ -172,13 +172,13 @@ include_once($path);
         <p>The Tree Of Life has roots that reach far and deep into soil, acknowledging its connection to, and drawing nutrients from the  Earth – an Element, and also a <span class="pink">symbol of growth.</span> Its leaves, branches reach out for the Sun, drawing energy from a bright, warm light and transforms it into nourishment. A <span class="pink">symbol of potential.</span></p>
 
         <p>The Tree Of Life signifies that you are <span class="pink">deeply connected</span> to the world around you, and you are dependent on it for your ability to grow and thrive.</p>
-        
+
         <p>The Tree Of Life is a representation of family, through its complex dispersion of branches, resembling the continuity of life and reproduction... Almost as if we were the branches connected to our ancestors, and spreading ourselves out to our offspring. A <span class="pink">symbol of continuity.</span></p>
 
         <p>It is a <span class="pink">symbol of growth and strength</span> – through the growth of a mere seedling, into a plant, and finally, into a full-grown tree.</p>
 
         <p>Just like this tree, you too will <span class="pink">grow stronger over time</span> and strive for greater knowledge and newer experiences, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
-        
+
         <img class="img-intext" src="../assets/img/dtol-5.png">
 
         <p>But more importantly, the Tree Of Life is a <span class="pink">symbol of rebirth.</span></p>
@@ -192,13 +192,13 @@ include_once($path);
         <p>Right at this very moment, you are <span class="pink">entering the brink of spring</span> – the optimal period for your growth.</p>
 
         <p>But you must seize this opportunity for yourself, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink"><span class="capitalize"><?php echo $_GET['name']; ?></span>, If Only You Could Imagine Just A Fraction Of What You'll Gain From The Divine Tree Of Life...</h2>
         </div>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, in the Divine Tree Of Life Membership Program, you will…</p>
-        
+
         <ul class="bullet-purple">
             <li>Encounter The Unadulterated Truth About Your Purpose and Existence</li>
             <li>Unlock Your Inner Intuition To Make Perfect Decisions</li>
@@ -209,7 +209,7 @@ include_once($path);
             <li>Exude Strong Vibrations Through A Newfound Sense Of Self-Confidence</li>
             <li>Receive Unquestionable Guidance In Everything You Put Your Mind To</li>
         </ul>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, you have everything to gain from this course, and nothing to lose.</p>
 
         <p>But you must act quickly, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
@@ -225,12 +225,12 @@ include_once($path);
         <p>We treat every single one of our Divine Tree Of Life customers as actual students. We attend to every single one of your burning questions. And beyond that, we also <span class="pink">offer guidance and advice</span> to the best of our abilities.</p>
 
         <p>We will do anything and everything it takes to ensure that you benefit from the Divine Tree Of Life.</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink"><span class="capitalize"><?php echo $_GET['name']; ?></span>, If You Refrain From Embracing The Divine Tree Of Life...</h2>
         </div>
             <p>Your growth will be at risk...</p>
-            
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, as a member of the Individualogist Family, I do care about you. Your growth and further development is important to me… to us.</p>
 
         <p>…That’s why I want to explain to you the reality of what could potentially go down if you avoid making this life-changing decision.</p>
@@ -246,11 +246,11 @@ include_once($path);
         <p>That is why you have been exposed to this brilliant chance, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>We can’t change the decisions that we’ve made in the past… But with the Divine Tree Of Life, we can change the decisions that we make in the future.</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink"><span class="capitalize"><?php echo $_GET['name']; ?></span>, Here Is Everything That You Will Gain From This Program...</h2>
         </div>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, The Divine Tree Of Life is an action-oriented program that has one, single purpose…</p>
 
         <p>To Transcend Your Existence.</p>
@@ -301,13 +301,13 @@ include_once($path);
         <p>Because in just a few short months, you’re going to look back on this day, and thank your lucky stars that you trusted your gut on the Divine Tree Of Life.</p>
 
         <p>There is nothing worse than living with regret, <span class="capitalize"><?php echo $_GET['name']; ?></span>… And I do not wish for you to experience that twinge of sorrow in your heart.</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink"><span class="capitalize"><?php echo $_GET['name']; ?></span>, We're Adding New Modules To The Divine Tree Of Life Every Month...</h2>
         </div>
-        
+
         <img class="img-intext" src="../assets/img/dtol-cover.png">
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, we’re constantly updating and releasing new modules in the Divine Tree Of Life Membership Platform. You’ll be able to access all of these resources digitally and remotely!</p>
 
         <p>You could be consumed by the <span class="pink">wisdom</span> of every single page from the comfort of your own home...</p>
@@ -325,11 +325,11 @@ include_once($path);
         <p>Because you can’t put a price tag on a better life. You can’t quantify the <span class="pink">eternal benefits</span> of spiritual attunement. And you can’t measure the level of <span class="pink">abundance</span> that you’ll receive from this program.</p>
 
         <p>The Divine Tree Of Life is a <span class="pink">timeless</span> program. Timeless, because there is no estimated duration. Timeless, because its secrets can be applied before, now, and after. Timeless, because that’s exactly how you’ll feel as you go through it, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink"><span class="capitalize"><?php echo $_GET['name']; ?></span>, Here's Why It's Not Going To Be What You Think...</h2>
         </div>
-        
+
         <p>I know how you feel, <span class="capitalize"><?php echo $_GET['name']; ?></span>… Right now, you’re probably thinking, “similar programs of merely half the value are being sold ANYWHERE around $47. Some are even being sold at $97! I can’t make that kind of commitment!”</p>
 
         <p>You are not mistaken, <span class="capitalize"><?php echo $_GET['name']; ?></span>, the contents of this revolutionary program are are without a doubt, incredibly valuable.</p>
@@ -345,13 +345,13 @@ include_once($path);
         <p>When I said that we want you to experience what TRUE VALUE really means, I meant it.</p>
 
         <p>So, this is what we’re going to do.</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink"><span class="capitalize"><?php echo $_GET['name']; ?></span>, Your Divine Tree Of Life Journey Can Commence For Just $7...</h2>
         </div>
-        
+
         <img class="img-intext" src="../assets/img/dtol-cover.png">
-        
+
         <p><span class="pink">SEVEN DOLLARS,</span> <span class="capitalize"><?php echo $_GET['name']; ?></span>, that’s all it takes.</p>
 
         <p>That’s about the price of a meal at McDonalds. It’s not even a FRACTION of the price of the device that you’re using to read this right now!</p>
@@ -359,7 +359,7 @@ include_once($path);
         <p>But that’s not all, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
 
         <p>The Divine Tree Of Life Membership will be the most awe-inspiring and fruit-bearing material that you’ve ever purchased.</p>
-                
+
         <ul class="bullet-purple">
             <li>…A newly transformed life.</li>
             <li>…A newfound sense of direction.</li>
@@ -368,11 +368,11 @@ include_once($path);
             <li>…A chance for a better future.</li>
             <li>…And so much more!</li>
         </ul>
-        
+
         <p>We’re not just stopping there, <span class="capitalize"><?php echo $_GET['name']; ?></span>. Providing you with value is definitely a priority of ours. But so is your satisfaction, your experience, and your security…</p>
 
         <p>Your purchase is and will be protected. Your trust means everything to us, <span class="capitalize"><?php echo $_GET['name']; ?></span>. And that is why we’re safeguarding you with the following OFFICIAL GUARANTEE.</p>
-        
+
         <div class="guarantee">
             <div class="dtol-sub-header">
                 <h2 class="pink">Our 60-Day "Transformation And Life-Purpose Discovery" Guarantee...</h2>
@@ -382,11 +382,11 @@ include_once($path);
 
             <p>Protecting the purchases of our customers is important to us. We firmly believe in building and keeping your trust, Friend. And you have my personal guarantee that this material will help you reap all the benefits that I’ve mentioned – and MORE<p>
         </div>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink">Why On Earth Are We Even Doing This? Here's Why, <span class="capitalize"><?php echo $_GET['name']; ?></span>...</h2>
         </div>
-        
+
         <p>Each of us who’ve had a hand in creating the Divine Tree Of Life program have been the exact same position as you, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
 
         <p>We know what it’s like to feel lost and directionless. We understand what it’s like to feel stuck in life.</p>
@@ -399,22 +399,22 @@ include_once($path);
 
         <p>And I want to share that with you, <span class="capitalize"><?php echo $_GET['name']; ?></span>. I want you to experience the same results with individuation – by leveraging on The Tree Of Life.</p>
 
-        <p>And as long as you click on the button below right now, we can guarantee you that your journey with the Divine Tree Of Life can begin at the small price-point or <span class="pink">just $7.</span></p> 
+        <p>And as long as you click on the button below right now, we can guarantee you that your journey with the Divine Tree Of Life can begin at the small price-point or <span class="pink">just $7.</span></p>
 
         <p>If you decide that it isn’t for you, you can cancel your membership at any time to avoid paying the membership fee of just $19.90 per month.</p>
 
-        <p>…But remember, <span class="capitalize"><?php echo $_GET['name']; ?></span>, your Tree of Life Membership includes <span class="pink">weekly readings, predictions, and little knowledge nibbles</span> that will escalate your personal growth.</p> 
+        <p>…But remember, <span class="capitalize"><?php echo $_GET['name']; ?></span>, your Tree of Life Membership includes <span class="pink">weekly readings, predictions, and little knowledge nibbles</span> that will escalate your personal growth.</p>
 
-        <p>It is important that you place your order quickly, <span class="capitalize"><?php echo $_GET['name']; ?></span>… Because the demand for this exclusive membership is growing, and we simply can’t guarantee that the price will always remain at $7…</p> 
+        <p>It is important that you place your order quickly, <span class="capitalize"><?php echo $_GET['name']; ?></span>… Because the demand for this exclusive membership is growing, and we simply can’t guarantee that the price will always remain at $7…</p>
 
         <p>And when that happens, you would not get to see this exclusive, one-time price ever again, <span class="capitalize"><?php echo $_GET['name']; ?></span>… I’d hate for that to happen to you.</p>
 
         <p>You should also know that any future price increases will NOT affect your membership, <span class="capitalize"><?php echo $_GET['name']; ?></span>… Just as long as you seize this opportunity for yourself. Right. Now.</p>
-        
+
         <div class="dtol-sub-header">
             <h2 class="pink">Be Warned, <span class="capitalize"><?php echo $_GET['name']; ?></span>... Do Not Make This Mistake.</h2>
         </div>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, there are people who do not believe in the process of spiritual encounters. There are people who dismiss the ideas of personal development…</p>
 
         <p>These are individuals who I like to think of as positivity vampires… They spend their lives in pity, negativity, and toxicity. You are not a part of that group, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
@@ -444,12 +444,12 @@ include_once($path);
 
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/common-faq.php');
+$path .= ('/sp/common/common-faq.php');
 include_once($path);
 ?>
 </div>
-<?php 
+<?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/footer.php');
-include_once($path); 
+$path .= ('/sp/common/footer.php');
+include_once($path);
 ?>

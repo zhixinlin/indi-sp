@@ -20,7 +20,8 @@
                 </table>
             <!--Dynamic Order Link Specific To Archetype-->
             <?php
-    switch($_GET['archetype']){
+    $archetype = $_GET['archetype'];
+    switch (strtolower($archetype)){
         case "caregiver": //Form Page
             echo "<a class='cta-button' href='http://individualogist.samcart.com/products/sac-car'>Click Here To Order Now</a>";
             break;

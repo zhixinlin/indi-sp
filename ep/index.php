@@ -11,20 +11,21 @@ include('ep-intro.php');
 ?>
 
 <?php
-    switch($_GET['element']){
-    case "air": //Form Page
+    $element = $_GET['element'];
+    switch (strtolower($element)){
+    case "air":
         include('air.php');
         break;
-    case "water": //Form Page
+    case "water":
         include('water.php');
         break;
-    case "fire": //Form Page
+    case "fire":
         include('fire.php');
         break;
-    case "earth": //Form Page
+    case "earth":
         include('earth.php');
         break;
-    default: //Any page that is not defined in this switch will lead to this page
+    default:
         include('air.php');
     }
 ?>

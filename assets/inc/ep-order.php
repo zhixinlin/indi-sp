@@ -1,20 +1,21 @@
     <div class="sac-order-area">
-        <!--Dynamic Image Specific To Element-->
+
         <?php
-        switch($_GET['element']){
-        case "air": //Form Page
+        $element = $_GET['element'];
+        switch (strtolower($element)){
+        case "air":
             echo "<img class='order-img' src='/sp/assets/img/ep-air-cover.png'>";
             break;
-        case "water": //Form Page
+        case "water":
             echo "<img class='order-img' src='/sp/assets/img/ep-water-cover.png'>";
             break;
-        case "fire": //Form Page
+        case "fire":
             echo "<img class='order-img' src='/sp/assets/img/ep-fire-cover.png'>";
             break;
-        case "earth": //Form Page
+        case "earth":
             echo "<img class='order-img' src='/sp/assets/img/ep-earth-cover.png'>";
             break;
-        default: //Any page that is not defined in this switch will lead to this page
+        default:
             echo "<img class='order-img' src='/sp/assets/img/ep-air-cover.png'>";
     }
     ?>
@@ -35,9 +36,10 @@
                         </tr>
                     </tbody>
                 </table>
-            <!--Dynamic Order Link Specific To Element-->
+
             <?php
-        switch($_GET['element']){
+        $element = $_GET['element'];
+        switch (strtolower($element)){
         case "air": //Form Page
             echo "<a class='cta-button' href='http://individualogist.samcart.com/products/ep-air'>Click Here To Order Now</a>";
             break;

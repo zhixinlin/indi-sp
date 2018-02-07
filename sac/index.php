@@ -17,7 +17,7 @@ include_once($path);
 
     <div class="sac-reading">
         <?php
-        switch($_GET['archetype']){
+        switch (strtolower($_GET['archetype'])){
         case "caregiver": //Form Page
             echo "<span class='archetype-xl caregiver'></span>";
             break;

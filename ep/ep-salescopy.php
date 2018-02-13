@@ -1,4 +1,4 @@
-<div class="sales-reading">
+<div id="sales-reading">
         <div class="ep-sub-header">
             <h2>But There's More To Your Element Than Just That, <span class="capitalize"><?php echo $_GET['name']; ?></span>...</h2>
         </div>
@@ -9,7 +9,7 @@
         <p>I’m sure you already know this, but allow me to explain what this means in a little bit more detail.</p>
 
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, although each of us has a <span class="purple">prominent element</span> that controls the majority of our personality, the process of integrating all four Elements into your consciousness can create stupendous changes in your life…</p>
-        
+
         <ul class="bullet-purple">
             <li>A newfound sense of <span class="goldenrod">wholeness</span></li>
             <li>A perfect <span class="goldenrod">balance</span> in your personal aura</li>
@@ -17,11 +17,11 @@
             <li>Gaining an <span class="goldenrod">enlightened perspective</span> on the differences of individuals around you</li>
             <li>A magnetizing personality that will attract <span class="goldenrod">infinite luck, opportunities, and joy</span></li>
         </ul>
-        
+
         <div class="ep-sub-header">
             <h2>Everything You've Ever And Never Seen Is Derived From Elements, <span class="capitalize"><?php echo $_GET['name']; ?></span>...</h2>
         </div>
-        
+
         <p>That’s right, <span class="capitalize"><?php echo $_GET['name']; ?></span>… The spectrum of Elements extends far beyond what we know as “consciousness”. Elements have a presence in literally <span class="purple">all things, and all matter.</span></p>
 
         <p>Literally the <span class="purple">entire cosmos</span> is formed from materials and particles that are derived from Elements…</p>
@@ -33,11 +33,11 @@
         <p>In other words, <span class="capitalize"><?php echo $_GET['name']; ?></span>, becoming aware of Elements is just the first of many steps that are about to enfold…</p>
 
         <p>…And it’s unfolding before you, right in front of your very eyes… Yes, <span class="capitalize"><?php echo $_GET['name']; ?></span>. It’s happening <span class="purple">right now.</span></p>
-        
+
         <div class="ep-sub-header">
             <h2>The Formation Of All Materials</h2>
         </div>
-        
+
         <p>The elements of Fire, Water, Air and Earth, are merely manifested forms of the entire concept of Elements.
 
         <p>Their manifestations are as follows…
@@ -53,9 +53,9 @@
         <p>It’s a little bit difficult to comprehend, but stay with me here, <span class="capitalize"><?php echo $_GET['name']; ?></span>… Perhaps this illustration will explain things a little clearer…</p>
 
         <p>Let’s illustrate the elements in action with the illustration of a <span class="purple">tree…</span></p>
-        
+
         <img class="img-intext" src="../assets/img/ep-1.png">
-        
+
         <p>A tree’s roots <span class="purple">absorb Water and minerals</span> necessary for growth from Earth (the elements of water and earth).</p>
 
         <p>The tree <span class="purple">breathes Air</span> through its leaves (the element of air)…</p>
@@ -65,9 +65,9 @@
         <p>If you set the wood of a tree on fire, the elements would be released from it.</p>
 
         <p>The water will evaporate, the light that has shone on the tree for many long years will burn out in a mighty flame, the oxygen the tree has been “breathing out” will enable this energy process of burning and nutrients from the soil will turn into ash, which will again serve as <span class="purple">a source of minerals</span> for other forms of life.</p>
-        
+
         <p>Now, let’s apply that illustration to ourselves, <span class="capitalize"><?php echo $_GET['name']; ?></span> – our actual, human <span class="purple">selves.</span></p>
-        
+
         <img class="img-intext" src="../assets/img/ep-2.png">
 
         <p>From what we’ve understood thus far, elements that form the <span class="purple">material world</span> are also included in an <span class="purple">individual’s personality…</span></p>
@@ -99,11 +99,11 @@
         <p>I’m sure you’ve already understood this by now, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
 
         <p>Elements form the very core of what we know as existence.</p>
-        
+
         <div class="ep-sub-header">
             <h2><span class="capitalize"><?php echo $_GET['name']; ?></span>, What Exactly Are You Lacking?</h2>
         </div>
-        
+
         <p>We’ve spoken about your individual qualities as seen in your Element, <span class="capitalize"><?php echo $_GET['name']; ?></span>… How did it make you feel?</p>
 
         <p>Did it make you feel empowered? Or did it make you feel as if you were lacking in certain areas?</p>
@@ -119,17 +119,17 @@
         <p>Regardless, I want you to know that you <span class="purple">possess infinite potential,</span> <span class="capitalize"><?php echo $_GET['name']; ?></span>… Infinite potential to attain perfection. Infinite potential to <span class="purple">transform</span> all <span class="purple">negativities</span> into qualities that emit <span class="purple">pure positivity.</span></p>
 
         <p>Yes, <span class="capitalize"><?php echo $_GET['name']; ?></span>… You truly do have that capacity…</p>
-        
+
         <div class="ep-sub-header">
             <h2>And That Path Is Revealed In Your Elemental Paradigm</h2>
         </div>
-        
+
         <p>The Elemental Paradigm is a complete report that we’ve prepared for you, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
 
         <p>It’s a revealing and insightful reading that examines your Element in agonising detail…</p>
 
         <p>That includes…</p>
-        
+
         <ul class="bullet-purple">
             <li>A complete breakdown and explanation of your Element’s role in your personality</li>
             <li>An in-depth look into your wealth and career insights based on your personal strengths</li>
@@ -137,7 +137,7 @@
             <li>An insightful guide to your personal, professional, and romantic relationships</li>
             <li>A revealing forecast about your future struggles, victories, and milestones</li>
         </ul>
-        
+
         <p>Your Elemental Paradigm consists of all that, and more… And the best part?</p>
 
         <p>All of your <span class="purple">questions, uncertainties, and curiosities</span> are answered within your Elemental Paradigm.</p>
@@ -153,7 +153,15 @@
         <p>All of those answers could be right on its way to your inbox right now, <span class="capitalize"><?php echo $_GET['name']; ?></span>…</p>
 
         <p>…This is a chance for you to finally attain that <span class="purple">unquestionable sense of understanding</span> about everything that’s happened and will happen in your life.</p>
-        
+
+      </div>
+
+        <?php
+        include ('../assets/inc/ep-order.php');
+        ?>
+
+      <div id="sales-reading">
+
         <img class="img-intext" src="../assets/img/ep-3.png">
 
         <p>This is the opportunity that you really need to seize. But you absolutely must act quickly, <span class="capitalize"><?php echo $_GET['name']; ?></span>.</p>
@@ -197,11 +205,11 @@
         <p>I know, I know… It’s a little bit biased, isn’t it? But I’m only human… And humans feel connected to others who remind them of themselves… Don’t you agree, <span class="capitalize"><?php echo $_GET['name']; ?></span>?</p>
 
         <p>So, do take advantage of this <span class="purple">metamorphic, transformative opportunity,</span> <span class="capitalize"><?php echo $_GET['name']; ?></span>… Because I have a really good feeling that you’re going to benefit from this – more than others.</p>
-        
+
         <p><span class="capitalize"><?php echo $_GET['name']; ?></span>, I have <span class="purple">absolute confidence</span> that your Elemental journey will be nothing short of <span class="purple">fulfilling and enlightening…</span></p>
 
         <p>…In fact, I’m so confident, that I’m giving you our <span class="purple">60-day money-back guarantee</span> – to protect your <span class="purple">trust,</span> and your <span class="purple">experience…</span></p>
-        
+
         <div class="guarantee">
             <img src="../assets/img/guarantee.png">
             <p>At any point in time within the next 60 days from today, you decide that your purchase wasn’t educational, helpful, or useful to you in anyway, all you have to do is e-mail us at contact@individualogist.com and we’ll award you a FULL REFUND – no questions asked.</p>
@@ -209,3 +217,11 @@
             <p>Protecting the purchases of our customers is important to us. We firmly believe in building and keeping your trust, Friend. And you have my personal guarantee that this material will help you reap all the benefits that I’ve mentioned – and MORE</p>
         </div>
     </div>
+
+    <?php
+    include ('../common/common-faq.php');
+    ?>
+
+    <?php
+    include ('../assets/inc/ep-order.php');
+    ?>

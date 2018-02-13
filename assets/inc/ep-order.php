@@ -1,4 +1,4 @@
-    <div class="sac-order-area">
+    <div class="ep-order-area">
 
         <?php
         $element = $_GET['element'];
@@ -20,7 +20,7 @@
     }
     ?>
         <div class="order-form">
-            <h2 class="order-title">Receive Your Elemental Paradigm For Just $19.00</h2>
+            <h2 class="order-title">Receive Your Elemental Paradigm For Just $37.00</h2>
                 <table class="order-details">
                     <tbody>
                         <tr class="details">
@@ -60,4 +60,4 @@
             After clicking on the "Order Now" button, you will be taken to a secure checkout area to reserve and purchase this premium product. Once again, your purchase is protected by our 60-Day Money-Back Guarantee.
             </div>
         </div>
-    </div>    
+    </div>

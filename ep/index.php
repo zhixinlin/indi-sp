@@ -36,18 +36,6 @@ include('ep-salescopy.php');
 
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/assets/inc/ep-order.php');
-include($path);
-?>
-
-<?php
-$path = $_SERVER['DOCUMENT_ROOT'];
-$path .= ('/sp/common/common-faq.php');
-include_once($path);
-?>
-
-<?php
-$path = $_SERVER['DOCUMENT_ROOT'];
 $path .= ('/sp/common/footer.php');
 include_once($path);
 ?>
